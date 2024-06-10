@@ -13,16 +13,31 @@ gem "github-pages", group: :jekyll_plugins
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
-
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# Uncomment the following line if you face issues with webrick
+gem 'webrick', '~> 1.8'
+
+# gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform? # Commented out due to build issues
+
+# Add csv gem to handle csv deprecation warning
+gem 'csv'
+
+# Add faraday-retry gem to handle retries
+gem 'faraday-retry'
+
+# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
+# and associated library.
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem "tzinfo", ">= 1", "< 3"
+  gem "tzinfo-data"
+end
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  # gem "jekyll-archives"
-  gem "jekyll-feed"
+  gem 'jekyll-archives'
+  gem 'jekyll-feed'
   gem 'jekyll-sitemap'
   gem 'hawkins'
-  gem "webrick", "~> 1.8"
+  
 end
