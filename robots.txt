@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dcamacho16.github.io/sitemap.xml
+Sitemap: https://dcamacho.site/sitemap.xml
