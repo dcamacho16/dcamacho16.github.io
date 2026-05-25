@@ -7,7 +7,7 @@ subtitle: Telecommunications Engineering student at <a href='https://www.ucam.ed
 profile:
   align: right
   image: prof_pic.jpeg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>📍 Murcia, Spain</p>
 
