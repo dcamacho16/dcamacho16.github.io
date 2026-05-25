@@ -4,7 +4,7 @@ title: Mini-HVAC IoT System
 description: "ESP32 + Simulink Hardware-in-the-Loop Platform"
 img: assets/img/projects/sdp-minihvac-hero.png
 importance: 1
-category: embedded
+category: projects
 ---
 
 A hardware-in-the-loop mini-HVAC platform built as the capstone project for Sistemas Digitales Programables at UCAM (Universidad Católica de Murcia). The system pairs a five-subsystem Simulink plant model with an ESP32-WROVER running custom FreeRTOS firmware, enabling closed-loop thermal control where the simulated plant and the physical controller exchange data in real time over a binary serial protocol.

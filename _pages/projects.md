@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of some cool projects.
 nav: true
 nav_order: 3
-display_categories: [embedded, coming]
+display_categories: [projects, coming soon]
 horizontal: false
 ---
 
