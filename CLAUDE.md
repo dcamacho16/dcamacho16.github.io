@@ -14,15 +14,19 @@ Use this exact structure:
 > _Very short one-line title that captures the gist or main accomplishment of the session._
 
 ## What was done
+
 (numbered list)
 
 ## Decisions made
+
 (what was chosen and why)
 
 ## Blog post ideas
+
 (anything interesting that came up)
 
 ## Next steps
+
 (what's left to do)
 ```
 
