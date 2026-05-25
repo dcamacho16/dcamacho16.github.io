@@ -13,3 +13,4 @@ vendor
 .idea
 .venv
 .claude/
+_session_logs/
