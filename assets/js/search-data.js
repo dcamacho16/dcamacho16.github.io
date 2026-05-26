@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-how-to-make-simulink-and-an-esp32-speak-the-same-binary-language",
+        
+          title: "How to make Simulink and an ESP32 speak the same binary language",
+        
+        description: "Designing a binary serial protocol between a Simulink plant model and ESP32 FreeRTOS firmware — matching C structs to Byte Pack/Unpack blocks and validating everything in MATLAB before the hardware is even connected.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/simulink-esp32-binary-serial-protocol/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
